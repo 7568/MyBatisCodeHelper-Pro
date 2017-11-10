@@ -1,33 +1,10 @@
 # MyBatisCodeHelper-Pro
 
-[![Jetbrains Plugins](https://img.shields.io/badge/plugin-9837-orange.svg)][plugin]
-[![Version](http://phpstorm.espend.de/badge/9837/version)][plugin]
-[![Downloads](http://phpstorm.espend.de/badge/9837/downloads)][plugin]
-[![Downloads last month](http://phpstorm.espend.de/badge/9837/last-month)][plugin]
-
-<div align="right">
-<a href="README_EN.md">English</a>
-</div>
 
 Intellij下代码自动生成插件 支持生成mybatis的dao接口,mapper xml,和建表sql, 支持直接从接口方法名直接生成sql.
 -----------------------------------------------------------------------
-完全免费
 
-Pro版本与免费版本的区别
-
-- 支持在查询条件上生成 if test
-- 支持生成多字段索引和多字段唯一
-- 支持生成方法 max,min,sum等方法
-- 支持生成 findOne,Before,After等语法
-- 当查找多个字段时支持生成DTO
-- 支持生成接口和接口实现
-- 生成的dao不再使用pojo作为param
-- 支持生成jdbcType
-- 支持更换图标
-- 修复byte类型的生成
-- 修复其他的一些bug
-
-之后会加入更多功能
+### 完全免费
 
 
 #### 根据接口的方法名直接生成对应的sql  
@@ -292,16 +269,4 @@ CHANGELOG
 - 添加方法名生成sql
 - 添加方法名自动提示
 ----------------------------------
-- 加入qq群
-![qqGroup](http://ogyxv3y5w.bkt.clouddn.com/qqgroup.png)
-
-
-截图中的项目来自[https://github.com/gejun123456/codehelperPluginDemo](https://github.com/gejun123456/codehelperPluginDemo)
-
-
-[plugin]: https://plugins.jetbrains.com/plugin/9837
-
-
-
-
 
